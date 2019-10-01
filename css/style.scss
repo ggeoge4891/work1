@@ -18,7 +18,7 @@
     background-color: rgba(0,0,0,0.1);
     color: black;
     transition: 0.6s; 
-    padding: 10px;
+    // padding: 8px;
 }
 
 .carousel img {
@@ -77,8 +77,14 @@ footer #copy {
         width: 80%;
     }
     h2 {
-        font-size: 1em;
+        font-size: 1.5em;
         padding: 5px 0 10px 0;
     }
     margin: 100px auto 0 auto;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 4vh;
 }

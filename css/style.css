@@ -21,7 +21,6 @@
   color: black;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  padding: 10px;
 }
 
 .carousel img {
@@ -84,7 +83,13 @@ footer #copy {
 }
 
 .row h2 {
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 5px 0 10px 0;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 4vh;
 }
 /*# sourceMappingURL=style.css.map */
