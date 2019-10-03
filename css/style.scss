@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 微軟正黑體;
+    font-family: 'Merriweather', serif;
     box-sizing: border-box;
     font-weight: 800;
 }
@@ -58,7 +58,7 @@
 
 
 footer {
-    background-color: #414040;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(87, 85, 85));
     color: #fff;
     margin-top: 100px;
     text-decoration: none;
@@ -75,7 +75,7 @@ footer #copy {
 
 .row {
     img {
-        width: 80%;
+        width: 90%;
     }
     h2 {
         font-size: 1.5em;
@@ -88,4 +88,40 @@ footer #copy {
     margin-top: 30px;
     margin-left: 30px;
     height: 4vh;
+}
+
+.aboutA {
+    
+    color: white;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+
+    h2 {
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 150px;
+    }
+
+}
+
+.aboutB {
+    
+    text-align: center;
+    h3{
+        color: rgb(250, 6, 6);
+        margin-top: 100px;
+
+    }
+    p {
+        
+        padding: 50px;
+        width: 600px;
+        
+       
+    }
+
+}
+
+.container {
+    img {
+        height: 290px;
+    }
 }
